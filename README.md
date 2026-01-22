@@ -19,3 +19,6 @@ Templates are a great god-sent gift, but sometimes finding the right template ca
 ## Why does gddHELPER exist?
 This idea was born in a very simple way:
 At the time of writing this, I am trying to build a videogame but I have no idea how to put down my thoughts in a Game Design Document. I searched for a while, and I found out that there is no website to help you create an actual GDD with your idea in mind, only pre-made templates that don't reflect what I wanted out of my game. So I made it my responsibility to create a website to **HELP** people make **gdd**s (see what I did there?)
+
+
+P.S. While I made the homepage by hand, I vibecoded the shit out of the actual program. When I get more experienced, I will update the code to be more human made.
