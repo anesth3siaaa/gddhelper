@@ -1,11 +1,38 @@
+/* FONTS    */
 @font-face {
-    font-family: Regular Sans;
-    src: url();
+    font-family: Neutral Sans;
+    src: url(./fonts/NeutralSans-Meidum.ttf);
+    /* "meidum" son 😭 im crine 😭😭😭 */
+    font-weight: lighter;
 }
+@font-face {
+    font-family: Neutral Sans;
+    src: url(./fonts/NeutralSans-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Neutral Sans;
+    src: url(./fonts/NeutralSans-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Neutral Sans;
+    src: url(./fonts/NeutralSans-Black.ttf);
+    font-weight: bolder;
+}
+
 .body {
     background-color: #1B211A;
 }
 h1 {
     color: whitesmoke;
     text-align: center;
+    font-family: Neutral Sans;
+    font-weight: bold;
+}
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Neutral Sans;
+    font-weight: bold;
 }
