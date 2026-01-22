@@ -1,4 +1,7 @@
-/* FONTS    */
+/* IMPORTING */
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+/* FONTS */
 @font-face {
     font-family: Neutral Sans;
     src: url(./fonts/NeutralSans-Meidum.ttf);
@@ -21,8 +24,12 @@
     font-weight: bolder;
 }
 
-.body {
-    background-color: #1B211A;
+body {
+    background-color: #121411;
+    font-family: Neutral Sans;
+    font-weight: normal;
+    left: 0;
+    right: 0;
 }
 h1 {
     color: whitesmoke;
@@ -36,3 +43,54 @@ h2 {
     font-family: Neutral Sans;
     font-weight: bold;
 }
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Neutral Sans;
+    font-weight: bolder;
+}
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Neutral Sans;
+    font-weight: normal;
+}
+
+/* GRID */
+.parent {
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    text-align: center;
+}
+.parent p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    background-color: #4979D2;
+    border-radius: 10px;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    background-color: #4979D2;
+    border-radius: 10px;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    background-color: #4979D2;
+    border-radius: 10px;
+}
+        
