@@ -1,4 +1,5 @@
 ![gddH logo](https://github.com/anesth3siaaa/gddhelper/blob/4fa95269e4ae9a1d79a8bf3e026b662acf2cfcae/gddhelper%20logo.png)
+# gddHELPER
 A handy, simple and powerful tool for game developers who need but can't bother to plan their videogames.
 ## What is gddHELPER?
 gddHELPER is a web-based tool for game developers that want to work on planning their videogame without going to the trouble of writing it from scratch. It's perfect for kickstarting your project, giving you complete flexibility without going through the tedious process of customizing pre-made templates that might not even fit your idea.
