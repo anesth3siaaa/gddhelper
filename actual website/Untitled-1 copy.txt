@@ -1,0 +1,43 @@
+[G NAME GOES HERE]
+ Section 1
+ Text above Paragraph 1 (if found)
+Paragraph 1 contents
+ Text above Paragraph 2 (if found)
+Paragraph 2 contents
+ Text above Paragraph 3 (if found)
+Paragraph 3 contents
+ Text above Paragraph 4 (if found)
+Paragraph 4 contents
+
+ Section 2
+ Text above Paragraph 1 (if found)
+Paragraph 1 contents
+ Text above Paragraph 2 (if found)
+Paragraph 2 contents
+ Text above Paragraph 3 (if found)
+Paragraph 3 contents
+ Text above Paragraph 4 (if found)
+Paragraph 4 contents
+
+ Section 3
+ Text above Paragraph 1 (if found)
+Paragraph 1 contents
+ Text above Paragraph 2 (if found)
+Paragraph 2 contents
+ Text above Paragraph 3 (if found)
+Paragraph 3 contents
+ Text above Paragraph 4 (if found)
+Paragraph 4 contents
+
+ Section 4
+ Text above Paragraph 1 (if found)
+Paragraph 1 contents
+ Text above Paragraph 2 (if found)
+Paragraph 2 contents
+ Text above Paragraph 3 (if found)
+Paragraph 3 contents
+ Text above Paragraph 4 (if found)
+Paragraph 4 contents
+
+
+P.S. the text above paragraph should only be visible if the section is not a custom one but one that came natively with gddh. 

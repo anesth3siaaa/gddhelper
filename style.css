@@ -23,6 +23,10 @@
     src: url(./fonts/NeutralSans-Black.ttf);
     font-weight: bolder;
 }
+@font-face {
+    font-family: JetBrains Mono;
+    src: url(./fonts/JetBrainsMonoNLNerdFont-Regular.ttf);
+}
 
 @keyframes gradientShift {
     0% {
@@ -104,4 +108,78 @@ p {
     grid-column-start: 5;
     background-color: #4979D2;
     border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: Neutral Sans;
+    font-size: 25px;
+}
+
+.footerTwo{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+.footerTwo a {
+    font-family: JetBrains Mono;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: ease 0.5s;
+    transform: scale(1);
+    text-align: center;
+}
+#fuckassGithub:hover {
+    font-family: JetBrains Mono;
+    font-size: 25px;
+    color: #4979D2;
+    transition: transform ease 0.5s;
+    transition: ease 0.5s;
+    transform: scale(2);
+}
+.footerTwo a:hover {
+    font-family: JetBrains Mono;
+    font-size: 25px;
+    color: #4979D2;
+    transition: transform ease 0.5s;
+    transition: ease 0.5s;
+    transform: scale(1.5);
+}
+
+/* TRY NOW BUTTON */
+#startButton {
+    font-family: Neutral Sans;
+    padding: 15px 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.6s ease;
+}
+
+#startButton::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: linear-gradient(to top, #007bff, #4979D2);
+    z-index: -1;
+    transition: height 0.6s ease;
+}
+
+#startButton:hover {
+    transform: scale(1.1);
+}
+
+#startButton:hover::before {
+    height: 100%;
 }
