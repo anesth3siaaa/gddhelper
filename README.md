@@ -13,7 +13,6 @@ gddHELPER is a web-based tool for game developers that want to work on planning 
 gddH allows for many exporting options, such as:
 -  .md (Markdown)
 - .txt (Basic text file)
-- .rtf (Rich Text Format)
 - .html (Hypertext Markup Language) with integrated CSS for complete customization
 ## Why not use a template instead?
 Templates are a great god-sent gift, but sometimes finding the right template can become really frustating and sometimes appealing your taste buds without interfering yourself can become completely impossible, and we all know that modifying an already existing template is a complete annoyance and pain. gddH lets you customize everything without any of those annoyances.
