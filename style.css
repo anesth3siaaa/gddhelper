@@ -24,12 +24,24 @@
     font-weight: bolder;
 }
 
+@keyframes gradientShift {
+    0% {
+        background-position: 200% 50%;
+    }
+    100% {
+        background-position: -200% 50%;
+    }
+}
+
 body {
     background-color: #121411;
     font-family: Neutral Sans;
     font-weight: normal;
     left: 0;
     right: 0;
+    background: radial-gradient(circle, #181818, #121411, #181818, #121411, #181818);
+    background-size: 300% 300%;
+    animation: gradientShift 12.5s linear infinite;
 }
 h1 {
     color: whitesmoke;
@@ -93,4 +105,3 @@ p {
     background-color: #4979D2;
     border-radius: 10px;
 }
-        
